@@ -1,17 +1,23 @@
-#README
+# README
+
 Last Updated: 8/15/18
+
 Author: Jonathan Moran
 
-##Project title: Greedy Kart
+## Project title: Greedy Kart
+
 This script takes in character/kart/wheels/glider stats from Mario Kart 8 Deluxe for the Nintendo Switch, and uses a recursive greedy algorithm to determine the best Mario Kart character/kart/wheels/glider combination, given a user-defined ordering of attribute preferences (acceleration, speed, handling, etc.).
 
-##Motivation:
+## Motivation:
+
 Read the "Annoying Non-perfection of Mario Kart" post from my Medium -- https://medium.com/@jflmoran
 
-##Built with:
+## Built with:
+
 - Python
 
-##Functions:
+## Functions:
+
 `def import_table(csvName):`
 - Import Data Table: reads in CSV table data to our internal data structures.
     * Arguments:
@@ -52,5 +58,6 @@ Read the "Annoying Non-perfection of Mario Kart" post from my Medium -- https://
         - _csvName_ - String of name of CSV output file
     - Returns: N/A
 
-##Tests:
+## Tests:
+
     - included in kart.py
